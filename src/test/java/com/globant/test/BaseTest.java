@@ -13,7 +13,7 @@ public class BaseTest {
     @BeforeClass
     public void setUp() {
         // Initialize WebDriver and open the Saucedemo URL
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Josue\\IdeaProjects\\projectwithcode\\TareaPom\\src\\utils\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\utils\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com/");

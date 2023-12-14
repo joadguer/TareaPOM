@@ -1,0 +1,9 @@
+com\globant\pages\CheckoutPageTwo.class
+com\globant\pages\LoginPage.class
+com\globant\test\BaseTest.class
+com\globant\pages\CheckoutPage.class
+com\globant\pages\ThankYouPage.class
+com\globant\pages\BasePage.class
+com\globant\pages\ProductPage.class
+com\globant\test\SauceDemoTests.class
+com\globant\pages\CartPage.class

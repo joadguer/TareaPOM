@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-13T22:30:09 ECT" name="Surefire suite" finished-at="2023-12-13T22:30:17 ECT" duration-ms="7738">
+    <groups>
+    </groups>
+    <test started-at="2023-12-13T22:30:09 ECT" name="Surefire test" finished-at="2023-12-13T22:30:17 ECT" duration-ms="7738">
+      <class name="com.globant.test.BaseTest">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.globant.test.BaseTest@314c508a]" started-at="2023-12-13T22:30:17 ECT" name="tearDown" finished-at="2023-12-13T22:30:17 ECT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.globant.test.BaseTest -->
+      <class name="com.globant.test.SauceDemoTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.globant.test.SauceDemoTests@1445d7f]" started-at="2023-12-13T22:30:09 ECT" name="setUp" finished-at="2023-12-13T22:30:13 ECT" duration-ms="3745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutTest()[pri:0, instance:com.globant.test.SauceDemoTests@1445d7f]" started-at="2023-12-13T22:30:13 ECT" name="logoutTest" finished-at="2023-12-13T22:30:14 ECT" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method signature="purchaseProductTest()[pri:0, instance:com.globant.test.SauceDemoTests@1445d7f]" started-at="2023-12-13T22:30:14 ECT" name="purchaseProductTest" finished-at="2023-12-13T22:30:15 ECT" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseProductTest -->
+        <test-method signature="removeElementsFromCartTest()[pri:0, instance:com.globant.test.SauceDemoTests@1445d7f]" started-at="2023-12-13T22:30:15 ECT" name="removeElementsFromCartTest" finished-at="2023-12-13T22:30:17 ECT" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeElementsFromCartTest -->
+      </class> <!-- com.globant.test.SauceDemoTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
